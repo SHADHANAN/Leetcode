@@ -18,7 +18,6 @@ This repository contains my solutions to LeetCode problems, showcasing my journe
 
 Solutions may include:
 
-* Java
 * Python
 
 
