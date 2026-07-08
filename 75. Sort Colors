@@ -1,0 +1,19 @@
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
+        s=0  #First
+        l=len(nums)-1  #last
+        i=0     ##Checker
+        while(i<=l):
+            if(nums[i]==0):
+                nums[s],nums[i]=nums[i],nums[s]
+                s+=1
+                i+=1
+            elif(nums[i]==2):
+                nums[i],nums[l]=nums[l],nums[i]
+                l-=1
+            else:
+                i+=1
+
+            
+
+        
