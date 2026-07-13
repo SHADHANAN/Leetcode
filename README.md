@@ -1,5 +1,7 @@
-# Leetcode
-<center><img width="440" height="226" alt="image" src="https://github.com/user-attachments/assets/c0fb5b64-4015-42e1-8835-91ed46e0cb31" /></center>
+
+<center>
+  <img width="440" height="226" alt="image" src="https://github.com/user-attachments/assets/c0fb5b64-4015-42e1-8835-91ed46e0cb31" />
+</center>
 
 Welcome to my LeetCode repository! 🚀
 
