@@ -1,4 +1,6 @@
 # Leetcode
+<img width="440" height="226" alt="image" src="https://github.com/user-attachments/assets/c0fb5b64-4015-42e1-8835-91ed46e0cb31" />
+
 Welcome to my LeetCode repository! 🚀
 
 This repository contains my solutions to LeetCode problems, showcasing my journey in mastering Data Structures, Algorithms, and Problem-Solving. Each solution is written with a focus on clean code, efficiency, and readability.
