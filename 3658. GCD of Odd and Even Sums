@@ -1,0 +1,15 @@
+class Solution:
+    def gcdOfOddEvenSums(self, n: int) -> int:
+        odd=[]
+        even=[]
+        a=1
+        while(len(odd)!=n and len(even)!=n):
+            
+            if(a%2==0):
+                even.append(a)
+                a+=1
+            else:
+                odd.append(a)
+                a+=1
+        gcd=math.gcd(sum(odd),sum(even))
+        return gcd
