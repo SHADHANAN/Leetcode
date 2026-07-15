@@ -1,0 +1,10 @@
+class Solution:
+    def sequentialDigits(self, low: int, high: int) -> List[int]:
+        nums="123456789"
+        digit=[]
+        for i in range(2,10):
+            for j in range(10-i):
+                d=int(nums[j:j+i])
+                if(low<=d<=high):
+                    digit.append(d)
+        return digit
