@@ -1,0 +1,28 @@
+class Solution:
+    def isValid(self, s: str) -> bool:
+        arr=[]
+        f=1
+        for i in s:
+            if(i=='(' or i=='[' or i=='{'):
+                arr.append(i)
+            else:
+                if(len(arr)==0):
+                    f=0
+                    break
+                else:
+                    p=arr.pop()
+                    if(p=='{' and i!="}"):
+                        f=0
+                        break
+                    elif(p=='(' and i!=")"):
+                        f=0
+                        break
+                    elif(p=='[' and i!="]"):
+                        f=0
+                        break
+        if(f and len(arr)==0):
+            return True
+        else:
+            return False
+
+            
