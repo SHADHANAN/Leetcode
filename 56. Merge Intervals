@@ -1,0 +1,11 @@
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        intervals.sort()
+        result=[intervals[0]] ##[[1,3]]
+        for i,j in intervals[1:]:
+            prev=result[-1]#[1,3]
+            if(i<=prev[1]):
+                result[-1][1]=max(j,prev[1])#j=6,prev[1]=3
+            else:
+                result.append([i,j])
+        return result
