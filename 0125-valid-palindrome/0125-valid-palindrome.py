@@ -8,7 +8,6 @@ class Solution:
                 stri+=a[i]
             else:
                 continue
-        print(stri)
         return (stri==stri[::-1])
         # i=0
         # j=len(stri)-1
